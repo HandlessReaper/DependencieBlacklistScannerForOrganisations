@@ -9,7 +9,7 @@ pip install -r requirements.txt
 
 export GITHUB_TOKEN=XXX (read only)
 
-python github_dep_quickscan.py <org-name> <denylist.txt> [--ecosystem all|js|python|php|java|go]
+python dep_blacklistscanner.py <org-name> <denylist.txt> [--ecosystem all|js|python|php|java|go]
 
 
 
